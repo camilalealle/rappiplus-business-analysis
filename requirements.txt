@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+scipy
+SQLAlchemy
+python-dotenv
+psycopg2-binary
+
+

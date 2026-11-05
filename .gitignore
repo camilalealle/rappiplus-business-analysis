@@ -1,0 +1,21 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Archivos temporales
+.DS_Store
+Thumbs.db
+*.log
+
+# Configuración local del editor
+.vscode/
