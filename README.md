@@ -14,28 +14,6 @@ The project covers the complete analytical workflow, from data quality assessmen
 
 **Analysis period:** January–June 2025.
 
-## Business Objectives
-
-The project addresses five key business questions:
-
-1. How is the business performing in terms of revenue, profitability, and sales?
-2. Which products, categories, and countries contribute most to financial performance?
-3. How frequently do customers purchase, and how effectively does the business retain them?
-4. What behavioral patterns can be identified through funnel and cohort analysis?
-5. Does a checkout interface experiment provide evidence of improved conversion?
-
-## Tools & Technologies
-
-| Technology       | Application                                               |
-| ---------------- | --------------------------------------------------------- |
-| Python           | Data cleaning, exploratory analysis, and business metrics |
-| Pandas & NumPy   | Data manipulation and quantitative analysis               |
-| SQL / PostgreSQL | Behavioral, funnel, and cohort analysis                   |
-| SciPy            | Statistical hypothesis testing                            |
-| Matplotlib       | Analytical visualizations                                 |
-| Power BI         | Interactive dashboards and DAX measures                   |
-| Jupyter Notebook | Reproducible analytical workflows                         |
-
 ## Key Business Results
 
 The analysis identified the following results:
@@ -53,6 +31,22 @@ The analysis identified the following results:
 | Next-Month Repurchase Rate           |        39.82% |
 
 *Revenue and profit are reported in the monetary units of the source dataset. Gross profit and margin are estimates based on the available cost information and applicable transaction filters.*
+
+## Power BI Dashboard
+
+An interactive Power BI dashboard was developed to monitor business performance, profitability, and customer retention.
+
+### Executive Overview
+
+![RappiPlus Executive Overview](dashboard/Screenshots/executive_overview.png)
+
+This dashboard provides an overview of revenue, estimated gross profit, sales activity, and financial performance across countries, product categories, and individual products.
+
+### Customer Analytics
+
+![RappiPlus Customer Analytics](dashboard/Screenshots/customer_analytics.png)
+
+This dashboard explores customer purchasing behavior, repeat purchases, monthly revenue per customer, and cohort-based retention.
 
 ### Key Findings
 
@@ -88,6 +82,28 @@ The treatment achieved an observed relative uplift of 3.80% (+0.60 percentage po
 The sample ratio mismatch (SRM) test did not detect a statistically significant imbalance between experimental groups (p = 0.4839).
 
 **Business recommendation:** Do not roll out the treatment based solely on the observed uplift. Define a minimum detectable effect, calculate the required sample size, and evaluate whether further experimentation is justified.
+
+## Business Objectives
+
+The project addresses five key business questions:
+
+1. How is the business performing in terms of revenue, profitability, and sales?
+2. Which products, categories, and countries contribute most to financial performance?
+3. How frequently do customers purchase, and how effectively does the business retain them?
+4. What behavioral patterns can be identified through funnel and cohort analysis?
+5. Does a checkout interface experiment provide evidence of improved conversion?
+
+## Tools & Technologies
+
+| Technology       | Application                                               |
+| ---------------- | --------------------------------------------------------- |
+| Python           | Data cleaning, exploratory analysis, and business metrics |
+| Pandas & NumPy   | Data manipulation and quantitative analysis               |
+| SQL / PostgreSQL | Behavioral, funnel, and cohort analysis                   |
+| SciPy            | Statistical hypothesis testing                            |
+| Matplotlib       | Analytical visualizations                                 |
+| Power BI         | Interactive dashboards and DAX measures                   |
+| Jupyter Notebook | Reproducible analytical workflows                         |
 
 ## Analytical Workflow
 
@@ -142,22 +158,6 @@ Developed an interactive Power BI dashboard with two analytical views:
 * Monthly revenue per customer.
 * New versus returning customers.
 * Monthly cohort retention.
-
-## Power BI Dashboard
-
-An interactive Power BI dashboard was developed to monitor business performance, profitability, and customer retention.
-
-### Executive Overview
-
-![RappiPlus Executive Overview](dashboard/Screenshots/executive_overview.png)
-
-This dashboard provides an overview of revenue, estimated gross profit, sales activity, and financial performance across countries, product categories, and individual products.
-
-### Customer Analytics
-
-![RappiPlus Customer Analytics](dashboard/Screenshots/customer_analytics.png)
-
-This dashboard explores customer purchasing behavior, repeat purchases, monthly revenue per customer, and cohort-based retention.
 
 ### Dashboard Files
 
